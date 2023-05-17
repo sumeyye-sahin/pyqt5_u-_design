@@ -1,0 +1,1 @@
+print("one.py çalıştı")

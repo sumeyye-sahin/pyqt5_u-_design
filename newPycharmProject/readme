@@ -1,0 +1,23 @@
+'''python3.7 ile geliştirildi'''
+
+'''
+butonlara tıklandığında kamerayı açıp açmadığını kontrol etmek için elimde olan iki py projesini kullandım. birisi göz tespiti diğeri yüz tespiti yapıyor.
+bu dosyalar çalıştırılırken(import ederken) eğer kütüphaneler yüklü değilse örneğin pyqt5 de kullanmadığım fakat eyeDetection ve faceDetection.py'de kullandığım
+opencv kütüphanesini mevcut projeye de import/install(C:...\newPycharmProject\venv\Lib\site-packages\cv2) etmem gerekti.
+
+açılan tespit dosyasından çıkmak için 'q' tuşuna basmak gerekiyor
+
+not: classifier dosyaları eyeDetection.py ve faceDetection.py için gerekli main.py ile ilgisi yoktur.
+'''
+
+'''
+ekran tasarımını themes klasörünün içindeki qss dosyaları ile yaptım istenildiğinde hazır qss dosyaları ile değiştirilebilir ya da
+css ile kendimiz qss dosyası hazırlayabiliriz.
+
+icons klasöründe butonlar için kullndığım ikonlar mevcut.
+'''
+
+'''
+main.py çalıştırılmasından sonra açılan pencereyi maximum düzeyde açmasını istedim ki farklı boyutttaki ekranlara uyum sağlasın.
+'''
+
